@@ -53,3 +53,6 @@ claude plugin install invoice-matcher@less-admin-hq
 
 ## Version
 0.1.0. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+
+Terms of service: https://lessadminhq.com/terms/
+Privacy policy: https://lessadminhq.com/privacy/

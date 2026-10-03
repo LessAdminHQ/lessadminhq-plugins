@@ -1,7 +1,7 @@
 {
   "name": "follow-up-writer",
   "displayName": "Follow-Up Writer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Writes follow-ups for quotes and estimates that went quiet: a short text and email with a real reason to reply, a later follow-up, and a polite closing-the-loop note.",
   "author": {
     "name": "Less Admin HQ",
@@ -22,10 +22,5 @@
     "small business",
     "contractor",
     "trades"
-  ],
-  "icon": "./assets/less-admin-hq.png",
-  "documentationUrl": "https://lessadminhq.com/tools/follow-up-writer/",
-  "supportUrl": "https://lessadminhq.com/about/",
-  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
-  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+  ]
 }

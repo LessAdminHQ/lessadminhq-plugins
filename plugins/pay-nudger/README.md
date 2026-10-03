@@ -54,3 +54,6 @@ claude plugin install pay-nudger@less-admin-hq
 
 ## Version
 0.1.2. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+
+Terms of service: https://lessadminhq.com/terms/
+Privacy policy: https://lessadminhq.com/privacy/

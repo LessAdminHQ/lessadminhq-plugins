@@ -1,7 +1,7 @@
 {
   "name": "review-replier",
   "displayName": "Review Replier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
   "author": {
     "name": "Less Admin HQ",
@@ -22,10 +22,5 @@
     "contractor",
     "trades",
     "reputation"
-  ],
-  "icon": "./assets/less-admin-hq.png",
-  "documentationUrl": "https://lessadminhq.com/tools/review-replier/",
-  "supportUrl": "https://lessadminhq.com/about/",
-  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
-  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+  ]
 }

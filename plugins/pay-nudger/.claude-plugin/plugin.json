@@ -1,7 +1,7 @@
 {
   "name": "pay-nudger",
   "displayName": "Pay Nudger",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
   "author": {
     "name": "Less Admin HQ",
@@ -22,10 +22,5 @@
     "small business",
     "contractor",
     "trades"
-  ],
-  "icon": "./assets/less-admin-hq.png",
-  "documentationUrl": "https://lessadminhq.com/tools/pay-nudger/",
-  "supportUrl": "https://lessadminhq.com/about/",
-  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
-  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+  ]
 }
