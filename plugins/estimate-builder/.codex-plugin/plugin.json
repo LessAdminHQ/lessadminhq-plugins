@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Turns rough job notes into a clean written estimate: labor and materials line items, a total, plain-English terms, and a note to send with it. The owner sets every price.",
+  "homepage": "https://lessadminhq.com/tools/estimate-builder/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Turn my job notes into a written estimate with line items and a total."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Estimate Builder",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Estimate Builder turns rough job notes, even a dictated voice note, into a clean written estimate for small business owners. It structures your own numbers into labor and materials line items, adds a total, plain-English terms, a 'this price holds 14 days' line, and a short note to send with it. You set every price. It flags anything missing instead of guessing and never sends anything for you.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Turn job notes into a clean estimate",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "write an estimate",
+    "quote for a job",
+    "turn job notes into a quote",
+    "send a quote",
+    "estimate template",
+    "didn't send a single quote",
+    "contractor estimate",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "name": "estimate-builder",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Estimate Builder"
+  short_description: "Turn job notes into a clean estimate"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "Turn my job notes into a written estimate with line items and a total."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pay Nudger"
+  short_description: "Get paid without awkward calls"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "A customer owes me money and is late paying. Write a reminder I can text them."

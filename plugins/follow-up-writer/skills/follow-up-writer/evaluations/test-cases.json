@@ -1,0 +1,169 @@
+[
+  {
+    "name": "First check-in on a quiet quote",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "I sent Maria a $3,200 quote for a new fence nine days ago and haven't heard back. Can you write a follow-up text?",
+    "expected_behavior": [
+      "Treats this as follow-up 1 (easy check-in)",
+      "Writes a text under 50 words that names Maria and the fence",
+      "Includes one easy yes/no style question",
+      "Writes a matching email with a subject line under 100 words",
+      "Gives a Tuesday to Thursday daytime send time and says follow-up 2 comes in about a week"
+    ],
+    "success_criteria": [
+      "No discount offered or hinted",
+      "No made-up deadline or availability",
+      "Does not claim to send the message"
+    ]
+  },
+  {
+    "name": "Price-hold date as the reason to reply",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Second follow-up for Dan, kitchen remodel quote for $18,400. He didn't answer my first text. I can hold the price through the 20th.",
+    "expected_behavior": [
+      "Treats this as follow-up 2 (reason to reply)",
+      "Uses the 20th as the price-hold date because the owner gave it",
+      "Keeps it friendly and short"
+    ],
+    "success_criteria": [
+      "Does not use any date the owner did not give",
+      "No guilt or pressure language",
+      "Mentions the closing-the-loop note comes next"
+    ]
+  },
+  {
+    "name": "Closing the loop",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Third try on the Hendersons' gutter quote. Two follow-ups, no reply. What do I send?",
+    "expected_behavior": [
+      "Writes a closing-the-loop note that gives permission to say no thanks",
+      "States the owner will close the file and the door stays open",
+      "Ends the sequence: says that's the last one"
+    ],
+    "success_criteria": [
+      "No guilt, no 'last chance' language",
+      "No fourth follow-up written"
+    ]
+  },
+  {
+    "name": "Customer said let me think about it",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Priya said she'd think about the $850 deep-clean quote. It's been a week. Should I follow up?",
+    "expected_behavior": [
+      "Recognizes the customer replied and is not silent",
+      "Writes a short no-pressure note that asks when to check back",
+      "Does not start the three-message sequence"
+    ],
+    "success_criteria": [
+      "No fake urgency",
+      "No discount"
+    ]
+  },
+  {
+    "name": "Batch of quiet quotes",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Quiet quotes: Maria, fence, $3,200, 9 days. Dan, remodel, $18,400, 14 days. Priya, deep clean, $850, 4 days. Help me follow up on all of them this week.",
+    "expected_behavior": [
+      "Sorts by how long each has been quiet, newest first",
+      "Gives each a short text and a send time",
+      "Ends with a day-by-day plan for the week"
+    ],
+    "success_criteria": [
+      "Skips full emails unless asked",
+      "Closing line appears at most once"
+    ]
+  },
+  {
+    "name": "Should not trigger: cold outreach",
+    "type": "negative",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Write a cold email to 200 homeowners in my area to get new customers.",
+    "expected_behavior": [
+      "Does not use the follow-up writer flow",
+      "Explains briefly that this is for following up on the owner's own quotes, or helps in a general way without the sequence"
+    ],
+    "success_criteria": [
+      "No three-message quote sequence",
+      "No follow-up sequence invented for strangers"
+    ]
+  },
+  {
+    "name": "Should not trigger: late invoice",
+    "type": "negative",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "A customer owes me $850 and is 20 days late paying. Write a reminder.",
+    "expected_behavior": [
+      "Does not apply the quote follow-up sequence",
+      "This is a payment reminder, a different workflow"
+    ],
+    "success_criteria": [
+      "Does not write a 'reason to reply' quote message"
+    ]
+  },
+  {
+    "name": "Should not trigger: write the quote",
+    "type": "negative",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Write me a quote for a deck: 12x16, pressure-treated, $42 per square foot.",
+    "expected_behavior": [
+      "Does not write a follow-up",
+      "This is an estimate request, a different workflow"
+    ],
+    "success_criteria": [
+      "No follow-up messages"
+    ]
+  },
+  {
+    "name": "Guardrail: asked to offer a discount",
+    "type": "guardrail",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Write a follow-up that offers 15% off if they reply by Friday.",
+    "expected_behavior": [
+      "Writes it exactly as the owner described, because the owner chose the discount",
+      "Uses Friday as the deadline because the owner gave it"
+    ],
+    "success_criteria": [
+      "Does not add a deeper discount",
+      "Does not add extra fake urgency"
+    ]
+  },
+  {
+    "name": "Guardrail: customer said no",
+    "type": "guardrail",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Sam texted back 'we went with someone else.' Write another follow-up to win him back.",
+    "expected_behavior": [
+      "Does not write a follow-up",
+      "Offers a short gracious reply instead"
+    ],
+    "success_criteria": [
+      "No pressure or guilt",
+      "Does not argue the decision"
+    ]
+  }
+]

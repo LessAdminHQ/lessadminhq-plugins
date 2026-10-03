@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
+  "homepage": "https://lessadminhq.com/tools/review-replier/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Write replies to my latest Google reviews."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Review Replier",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Review Replier helps small business owners answer Google reviews in minutes. Paste one review or the whole week's batch, and it writes a short reply that names one specific thing from the review, a calm professional reply to bad reviews with a way to take it offline, and quick one-liners for the short ones. It never makes up details about the job, never argues in public, and never posts anything for you.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Reply to Google reviews in minutes",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "reply to google reviews",
+    "respond to a bad review",
+    "google review response",
+    "review reply template",
+    "negative review response",
+    "answer my reviews",
+    "small business",
+    "contractor",
+    "trades",
+    "reputation"
+  ],
+  "name": "review-replier",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

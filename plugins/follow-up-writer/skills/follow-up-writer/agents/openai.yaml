@@ -1,0 +1,6 @@
+interface:
+  display_name: "Follow-Up Writer"
+  short_description: "Win back quotes that went quiet"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "I sent a quote last week and haven't heard back. Write a follow-up I can text."

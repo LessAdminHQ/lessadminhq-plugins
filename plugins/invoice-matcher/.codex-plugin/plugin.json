@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Matches bank deposits to open invoices and shows what's paid, unpaid, and needs a look. Flags lump sums, sets aside refunds and fees, and never guesses quietly.",
+  "homepage": "https://lessadminhq.com/tools/invoice-matcher/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Match these bank deposits to my open invoices and tell me what's paid."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Invoice Matcher",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Invoice Matcher helps small business owners reconcile payments in minutes. Paste your bank deposits and your open invoices, and it returns three lists: paid, unpaid, and needs a look. Lump-sum deposits that could cover several invoices are flagged with the combinations that add up, and refunds, fees, and transfers are set aside. It never guesses quietly, doesn't connect to your bank, and stores nothing itself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Match bank deposits to open invoices",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "match payments to invoices",
+    "reconcile invoices",
+    "bank deposits to invoices",
+    "which invoices are paid",
+    "bank reconciliation",
+    "manually matching invoices",
+    "small business",
+    "contractor",
+    "trades",
+    "bookkeeping"
+  ],
+  "name": "invoice-matcher",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "invoice-matcher",
+  "displayName": "Invoice Matcher",
+  "version": "0.1.0",
+  "description": "Matches bank deposits to open invoices and shows what's paid, unpaid, and needs a look. Flags lump sums, sets aside refunds and fees, and never guesses quietly.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/invoice-matcher/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "match payments to invoices",
+    "reconcile invoices",
+    "bank deposits to invoices",
+    "which invoices are paid",
+    "bank reconciliation",
+    "manually matching invoices",
+    "small business",
+    "contractor",
+    "trades",
+    "bookkeeping"
+  ],
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/invoice-matcher/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

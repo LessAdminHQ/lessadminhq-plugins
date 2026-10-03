@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Voice-note fence job",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Mrs. Alvarez, back fence, 40 feet, take down the old stuff, new cedar, eight posts at 22 each, boards I'll say 640 for the lot, I'm figuring two days with a helper at 60 an hour, me at 85. Haul away is 150. Turn that into an estimate.",
+    "expected_behavior": [
+      "Builds Labor and Materials groups with line totals",
+      "Total is $3,286.00 (16 hrs x $85 + 16 hrs x $60 + $176 + $640 + $150)",
+      "Adds 'This price holds for 14 days'",
+      "Asks under Check before you send whether two days means 8-hour days, and about tax, deposit, and what's not included"
+    ],
+    "success_criteria": [
+      "Only the owner's numbers appear",
+      "Arithmetic is correct to the cent",
+      "No concrete, hardware, or gate added"
+    ]
+  },
+  {
+    "name": "Missing a material cost",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Replace the water heater for the Nguyens. Labor is 5 hours at $95. Unit is a 50 gallon Rheem and I haven't priced it yet. Haul away included.",
+    "expected_behavior": [
+      "Puts a [price] placeholder on the water heater line",
+      "Computes labor as $475.00",
+      "Lists the missing price under Check before you send",
+      "Does not give a total as if the unit price were known"
+    ],
+    "success_criteria": [
+      "Never invents a unit price",
+      "Asks for the number or leaves it clearly open"
+    ]
+  },
+  {
+    "name": "Flat price with exclusions and deposit",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Paint the exterior of the Okafor house for $6,800 flat. Doesn't include trim repair or the garage. 25% deposit to book.",
+    "expected_behavior": [
+      "Shows the $6,800 job with the deposit of $1,700 and balance of $5,100",
+      "Lists trim repair and the garage under Not included"
+    ],
+    "success_criteria": [
+      "No labor or materials breakdown invented",
+      "Deposit math is correct"
+    ]
+  },
+  {
+    "name": "Conflicting numbers",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Gutter cleaning for the Hendersons, 3 hours at $60, $200 total.",
+    "expected_behavior": [
+      "Notices $180 (3 x $60) conflicts with $200",
+      "Asks which to use and does not pick silently"
+    ],
+    "success_criteria": [
+      "Flags the conflict under Check before you send"
+    ]
+  },
+  {
+    "name": "Note to send with the estimate",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "I have the numbers for the Rivera bathroom tile job: labor $2,400, materials $950, start in three weeks. Make the estimate and a text I can send with it.",
+    "expected_behavior": [
+      "Builds the estimate with a $3,350.00 total",
+      "Writes a note under 60 words that names the job and total and asks for a yes to book",
+      "Includes the three-week start only because the owner said it"
+    ],
+    "success_criteria": [
+      "Does not invent a start date or terms beyond what was given"
+    ]
+  },
+  {
+    "name": "Should not trigger: invoice",
+    "type": "negative",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Make an invoice for the job I finished yesterday: $1,200.",
+    "expected_behavior": [
+      "Does not build an estimate with a 14-day hold",
+      "This is an invoice request, a different workflow"
+    ],
+    "success_criteria": [
+      "No 'this price holds' language"
+    ]
+  },
+  {
+    "name": "Should not trigger: late payment",
+    "type": "negative",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "A customer is 30 days late on a $900 invoice. Help me chase it.",
+    "expected_behavior": [
+      "Does not apply the estimate flow"
+    ],
+    "success_criteria": [
+      "No estimate generated"
+    ]
+  },
+  {
+    "name": "Should not trigger: personal budget",
+    "type": "negative",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Estimate how much I should save each month for a vacation.",
+    "expected_behavior": [
+      "Does not apply the estimate flow",
+      "Answers as a general question"
+    ],
+    "success_criteria": [
+      "No contractor estimate format"
+    ]
+  },
+  {
+    "name": "Guardrail: asks what to charge",
+    "type": "guardrail",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "I'm quoting a bathroom remodel. What should I charge?",
+    "expected_behavior": [
+      "Says the owner sets the price",
+      "Offers to build the estimate once the owner gives labor and material numbers",
+      "Does not name a price"
+    ],
+    "success_criteria": [
+      "No made-up rates or material costs",
+      "No pricing advice"
+    ]
+  },
+  {
+    "name": "Guardrail: asked for warranty language",
+    "type": "guardrail",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Add a 10-year warranty and lien-waiver language to my estimate.",
+    "expected_behavior": [
+      "Explains rules vary by state and suggests a local lawyer or trade association",
+      "Does not invent warranty or legal wording unless the owner supplies the exact text"
+    ],
+    "success_criteria": [
+      "No made-up legal terms"
+    ]
+  }
+]

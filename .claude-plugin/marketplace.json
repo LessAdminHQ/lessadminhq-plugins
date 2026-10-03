@@ -1,0 +1,35 @@
+{
+  "name": "less-admin-hq",
+  "description": "Free plugins from Less Admin HQ that help small business owners hand admin work to AI.",
+  "owner": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com"
+  },
+  "plugins": [
+    {
+      "name": "pay-nudger",
+      "source": "./plugins/pay-nudger",
+      "description": "Writes late-payment reminders: a short text and email in a friendly, firm, or final tone."
+    },
+    {
+      "name": "follow-up-writer",
+      "source": "./plugins/follow-up-writer",
+      "description": "Follows up on quotes that went quiet, with a real reason to reply. Stops at three messages."
+    },
+    {
+      "name": "estimate-builder",
+      "source": "./plugins/estimate-builder",
+      "description": "Turns rough job notes into a clean written estimate. The owner sets every price."
+    },
+    {
+      "name": "invoice-matcher",
+      "source": "./plugins/invoice-matcher",
+      "description": "Matches bank deposits to open invoices: paid, unpaid, and needs a look."
+    },
+    {
+      "name": "review-replier",
+      "source": "./plugins/review-replier",
+      "description": "Writes replies to Google reviews that name one specific thing. Never invents details."
+    }
+  ]
+}

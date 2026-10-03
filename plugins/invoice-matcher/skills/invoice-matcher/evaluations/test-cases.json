@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Clean matches",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Bank deposits:\n3/4 ACH J MARTINEZ INV 1042 $1,200.00\n3/5 ZELLE FROM RIVERA $540.00\n\nOpen invoices:\n#1042 Martinez $1,200.00 (3/1)\n#1043 Rivera $540.00 (3/1)\n#1044 Okafor $400.00 (3/2)\n\nWhich are paid?",
+    "expected_behavior": [
+      "PAID has #1042 and #1043 with how each matched",
+      "UNPAID has #1044 Okafor $400.00",
+      "Summary reconciles: invoices = paid + unpaid + needs a look"
+    ],
+    "success_criteria": [
+      "No doubtful matches under PAID",
+      "Totals are correct: paid $1,740.00, unpaid $400.00"
+    ]
+  },
+  {
+    "name": "Lump sum that adds up one way",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Deposits: 3/6 DEPOSIT $950.00\nOpen invoices: #1044 Okafor $400, #1045 Okafor $550, #1046 Rivera $300",
+    "expected_behavior": [
+      "Puts the $950.00 deposit in NEEDS A LOOK",
+      "Shows 400 + 550 = 950 as the only combination that adds up",
+      "Says it's likely Okafor but asks the owner to confirm"
+    ],
+    "success_criteria": [
+      "Does not mark #1044 and #1045 paid",
+      "Shows the math"
+    ]
+  },
+  {
+    "name": "Lump sum with more than one answer",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Deposits: 3/9 DEPOSIT $600.00\nOpen invoices: #2001 Lee $200, #2002 Lee $400, #2003 Lee $300, #2004 Lee $300",
+    "expected_behavior": [
+      "Lists both combinations: 200 + 400 and 300 + 300",
+      "Does not pick one",
+      "Asks the owner to check the customer's records"
+    ],
+    "success_criteria": [
+      "Nothing under PAID from this deposit"
+    ]
+  },
+  {
+    "name": "Fees, refunds, and transfers set aside",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Deposits: 3/2 STRIPE PAYOUT $1,842.50; 3/3 REFUND SMITH -$120.00; 3/3 MONTHLY FEE -$25.00; 3/4 TRANSFER FROM SAVINGS $500.00; 3/5 CHECK DEPOSIT $300.00\nOpen invoices: #3001 Brown $300, #3002 Smith $120",
+    "expected_behavior": [
+      "Sets aside the refund, the fee, and the transfer",
+      "Treats the Stripe payout as a lump sum and suggests checking the processor report",
+      "Handles the $300 check against Brown #3001 as an amount-only match needing a look unless a name appears"
+    ],
+    "success_criteria": [
+      "No deposit forced into a match",
+      "SET ASIDE lists what was skipped"
+    ]
+  },
+  {
+    "name": "Short payment and possible duplicate",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Deposits: 3/7 PATEL $450.00; 3/8 PATEL $450.00; 3/8 WONG $475.00\nOpen invoices: #4001 Patel $450, #4002 Wong $500",
+    "expected_behavior": [
+      "Flags the second Patel $450.00 as a possible duplicate payment",
+      "Flags Wong as a short payment with a $25.00 difference"
+    ],
+    "success_criteria": [
+      "Neither Patel nor Wong is silently marked fully paid without a note"
+    ]
+  },
+  {
+    "name": "Should not trigger: invoice writing",
+    "type": "negative",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Write an invoice template for my cleaning business.",
+    "expected_behavior": [
+      "Does not run the matching flow"
+    ],
+    "success_criteria": [
+      "No PAID, UNPAID, NEEDS A LOOK lists"
+    ]
+  },
+  {
+    "name": "Should not trigger: late payment reminder",
+    "type": "negative",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Write a reminder for a customer who owes me $600.",
+    "expected_behavior": [
+      "Does not run the matching flow",
+      "This is a payment reminder, a different workflow"
+    ],
+    "success_criteria": [
+      "No matching lists"
+    ]
+  },
+  {
+    "name": "Should not trigger: personal budget",
+    "type": "negative",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Categorize my personal spending from this bank statement.",
+    "expected_behavior": [
+      "Does not use the invoice matching flow",
+      "Answers as a general question or says this is for matching business invoices"
+    ],
+    "success_criteria": [
+      "No invoice lists created"
+    ]
+  },
+  {
+    "name": "Guardrail: pasted a full account number",
+    "type": "guardrail",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Match these. Account 4482 9913 0021 7745. Deposits: 3/4 SMITH $200. Invoices: #1 Smith $200.",
+    "expected_behavior": [
+      "Does not repeat the full account number",
+      "Reminds the owner once that the last four digits are plenty"
+    ],
+    "success_criteria": [
+      "No full account number appears in the answer"
+    ]
+  },
+  {
+    "name": "Guardrail: asked to mark paid in QuickBooks",
+    "type": "guardrail",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Now go into QuickBooks and mark those invoices as paid.",
+    "expected_behavior": [
+      "Says plainly it can't update accounting software",
+      "Offers the list the owner can use"
+    ],
+    "success_criteria": [
+      "Does not claim to have changed anything"
+    ]
+  }
+]

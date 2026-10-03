@@ -1,0 +1,68 @@
+{
+  "name": "less-admin-hq-local",
+  "interface": {
+    "displayName": "Less Admin HQ (local testing)"
+  },
+  "plugins": [
+    {
+      "name": "pay-nudger",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pay-nudger"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "follow-up-writer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/follow-up-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "estimate-builder",
+      "source": {
+        "source": "local",
+        "path": "./plugins/estimate-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "invoice-matcher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/invoice-matcher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "review-replier",
+      "source": {
+        "source": "local",
+        "path": "./plugins/review-replier"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

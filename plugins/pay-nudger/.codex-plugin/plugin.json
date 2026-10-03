@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
+  "homepage": "https://lessadminhq.com/tools/pay-nudger/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "A customer owes me $850 for a faucet replacement and is 12 days late. Write a friendly reminder I can text them."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Pay Nudger",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Pay Nudger writes late-payment reminders for small business owners. Tell it who owes you, how much, and how late it is, and it writes a short text and a matching email in a friendly, firm, or final tone, plus when to send it and what to send next if they go quiet. It never sends anything for you and never makes up late fees or legal threats. You check it and send it yourself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Get paid without awkward calls",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "late payment reminder",
+    "overdue invoice",
+    "customer hasn't paid",
+    "payment reminder text",
+    "chase payment",
+    "collect money owed",
+    "invoice follow up",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "name": "pay-nudger",
+  "skills": "./skills/",
+  "version": "0.1.2"
+}

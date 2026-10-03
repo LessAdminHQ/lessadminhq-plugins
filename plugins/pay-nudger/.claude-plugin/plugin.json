@@ -1,0 +1,31 @@
+{
+  "name": "pay-nudger",
+  "displayName": "Pay Nudger",
+  "version": "0.1.2",
+  "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/pay-nudger/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "late payment reminder",
+    "overdue invoice",
+    "customer hasn't paid",
+    "payment reminder text",
+    "chase payment",
+    "collect money owed",
+    "invoice follow up",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/pay-nudger/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

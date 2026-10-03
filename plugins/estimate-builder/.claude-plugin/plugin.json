@@ -1,0 +1,31 @@
+{
+  "name": "estimate-builder",
+  "displayName": "Estimate Builder",
+  "version": "0.1.0",
+  "description": "Turns rough job notes into a clean written estimate: labor and materials line items, a total, plain-English terms, and a note to send with it. The owner sets every price.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/estimate-builder/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "write an estimate",
+    "quote for a job",
+    "turn job notes into a quote",
+    "send a quote",
+    "estimate template",
+    "didn't send a single quote",
+    "contractor estimate",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/estimate-builder/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

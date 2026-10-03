@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review Replier"
+  short_description: "Reply to Google reviews in minutes"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "Write replies to my latest Google reviews."

@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Writes follow-ups for quotes and estimates that went quiet: a short text and email with a real reason to reply, a later follow-up, and a polite closing-the-loop note.",
+  "homepage": "https://lessadminhq.com/tools/follow-up-writer/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "I sent a quote last week and haven't heard back. Write a follow-up I can text."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Follow-Up Writer",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Follow-Up Writer helps small business owners follow up on quotes and estimates that went quiet, without sounding pushy. Tell it who you quoted, for what, and how long ago, and it writes a short text and matching email with a real reason to reply, then a later follow-up and a polite closing-the-loop note. It stops at three messages, never invents discounts or deadlines, and never sends anything for you.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Win back quotes that went quiet",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "follow up on a quote",
+    "quote went quiet",
+    "check back on a proposal",
+    "follow up with a client",
+    "lead went quiet",
+    "just checking in email",
+    "estimate follow up",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "name": "follow-up-writer",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}
