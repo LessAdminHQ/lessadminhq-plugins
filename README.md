@@ -18,7 +18,7 @@ Free AI plugins from [Less Admin HQ](https://lessadminhq.com/) that help small b
 ## Install in Claude Code
 
 ```bash
-claude plugin marketplace add TomHoupt/lessadminhq-plugins
+claude plugin marketplace add LessAdminHQ/lessadminhq-plugins
 claude plugin install pay-nudger@less-admin-hq
 ```
 

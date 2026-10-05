@@ -1,7 +1,7 @@
 {
   "name": "post-call-confirmer",
   "displayName": "Post-Call Confirmer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turns rough call notes into a two-to-four sentence confirmation of what was agreed and what happens next, and flags anything the notes left unclear.",
   "author": {
     "name": "Less Admin HQ",
@@ -9,7 +9,7 @@
     "url": "https://lessadminhq.com/"
   },
   "homepage": "https://lessadminhq.com/tools/post-call-confirmer/",
-  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
     "confirmation email after a call",

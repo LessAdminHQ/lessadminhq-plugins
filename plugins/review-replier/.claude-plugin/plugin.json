@@ -1,7 +1,7 @@
 {
   "name": "review-replier",
   "displayName": "Review Replier",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
   "author": {
     "name": "Less Admin HQ",
@@ -9,7 +9,7 @@
     "url": "https://lessadminhq.com/"
   },
   "homepage": "https://lessadminhq.com/tools/review-replier/",
-  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
     "reply to google reviews",

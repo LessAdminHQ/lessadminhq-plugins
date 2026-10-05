@@ -1,7 +1,7 @@
 {
   "name": "pay-nudger",
   "displayName": "Pay Nudger",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
   "author": {
     "name": "Less Admin HQ",
@@ -9,7 +9,7 @@
     "url": "https://lessadminhq.com/"
   },
   "homepage": "https://lessadminhq.com/tools/pay-nudger/",
-  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
     "late payment reminder",

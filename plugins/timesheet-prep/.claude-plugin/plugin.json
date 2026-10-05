@@ -1,7 +1,7 @@
 {
   "name": "timesheet-prep",
   "displayName": "Timesheet Prep",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turns messy clock-in and clock-out texts into a clean payroll-ready summary per person. Flags missing and odd entries instead of guessing, and applies only the owner's own rules.",
   "author": {
     "name": "Less Admin HQ",
@@ -9,7 +9,7 @@
     "url": "https://lessadminhq.com/"
   },
   "homepage": "https://lessadminhq.com/tools/timesheet-prep/",
-  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
     "total employee hours",

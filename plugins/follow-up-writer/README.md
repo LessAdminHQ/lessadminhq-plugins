@@ -45,7 +45,7 @@ claude --plugin-dir ./plugins/follow-up-writer
 **Claude Code (from this repo's marketplace):**
 
 ```bash
-claude plugin marketplace add TomHoupt/lessadminhq-plugins
+claude plugin marketplace add LessAdminHQ/lessadminhq-plugins
 claude plugin install follow-up-writer@less-admin-hq
 ```
 
@@ -55,7 +55,7 @@ claude plugin install follow-up-writer@less-admin-hq
 `skills/follow-up-writer/evaluations/test-cases.json` holds the test cases we check by hand before each release: requests where it should kick in, requests where it should stay out of the way, and guardrail checks (such as being asked to send something).
 
 ## Version
-0.1.2. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+0.1.3. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
 
 Terms of service: https://lessadminhq.com/terms/
 Privacy policy: https://lessadminhq.com/privacy/

@@ -45,7 +45,7 @@ claude --plugin-dir ./plugins/post-job-summary
 **Claude Code (from this repo's marketplace):**
 
 ```bash
-claude plugin marketplace add TomHoupt/lessadminhq-plugins
+claude plugin marketplace add LessAdminHQ/lessadminhq-plugins
 claude plugin install post-job-summary@less-admin-hq
 ```
 
@@ -56,4 +56,4 @@ Terms of service: https://lessadminhq.com/terms/
 Privacy policy: https://lessadminhq.com/privacy/
 
 ## Version
-0.1.0. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+0.1.1. Made by Less Admin HQ. Questions: hello@lessadminhq.com.

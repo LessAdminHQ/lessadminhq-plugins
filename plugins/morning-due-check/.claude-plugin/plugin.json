@@ -1,7 +1,7 @@
 {
   "name": "morning-due-check",
   "displayName": "Morning Due Check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turns a pasted list of open invoices and estimates into one short check of what's due today, what's overdue, and what's coming up, with a short nudge for each overdue item.",
   "author": {
     "name": "Less Admin HQ",
@@ -9,7 +9,7 @@
     "url": "https://lessadminhq.com/"
   },
   "homepage": "https://lessadminhq.com/tools/morning-due-check/",
-  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
     "what's due today",
