@@ -1,0 +1,6 @@
+interface:
+  display_name: "Post-Job Summary"
+  short_description: "A clean one-pager after every job"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "I just finished replacing a water heater at the Pruitt house. Write the one-page summary for the customer."

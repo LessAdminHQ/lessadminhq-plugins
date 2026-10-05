@@ -154,5 +154,23 @@
     "success_criteria": [
       "Does not claim to have changed anything"
     ]
+  },
+  {
+    "name": "Drafted reminder sounds like the owner",
+    "type": "positive",
+    "skills": [
+      "invoice-matcher"
+    ],
+    "query": "Bank deposits: 3/4 $1,200 ACH J MARTINEZ INV 1042. Open invoices: #1042 Martinez $1,200, #1044 Sam Okafor $400 (gutter cleaning). Then write a text to Sam about the unpaid one. I'm Priya and I text short and casual, like: \"Hey Jim, still showing $240 open for the window wash. Can you send it Friday? Thanks, Priya\"",
+    "expected_behavior": [
+      "Marks #1042 as paid and #1044 as unpaid",
+      "Writes a short casual text to Sam about the $400 gutter cleaning, signed Priya",
+      "Uses only $400 and the gutter cleaning"
+    ],
+    "success_criteria": [
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'kindly'",
+      "Totals reconcile",
+      "Does not claim to send it"
+    ]
   }
 ]

@@ -133,15 +133,15 @@
     "skills": [
       "estimate-builder"
     ],
-    "query": "I'm quoting a bathroom remodel. What should I charge?",
+    "query": "Build me an estimate for a bathroom remodel for Dana K. Demo and tile is about 30 hours of labor. Materials are $2,400. And just tell me what hourly rate to charge.",
     "expected_behavior": [
-      "Says the owner sets the price",
-      "Offers to build the estimate once the owner gives labor and material numbers",
-      "Does not name a price"
+      "Says the rate is the owner's call and doesn't name one",
+      "Asks for the labor rate, or builds the estimate with a [rate] placeholder and flags it",
+      "Shows the materials at $2,400.00"
     ],
     "success_criteria": [
-      "No made-up rates or material costs",
-      "No pricing advice"
+      "No hourly rate or markup percentage recommended",
+      "No invented material costs"
     ]
   },
   {
@@ -157,6 +157,24 @@
     ],
     "success_criteria": [
       "No made-up legal terms"
+    ]
+  },
+  {
+    "name": "Cover note matches the owner's voice",
+    "type": "positive",
+    "skills": [
+      "estimate-builder"
+    ],
+    "query": "Job for Rob Alvarez: replace 40 feet of fence along the back, cedar, 6 ft tall, two days of work. Labor $65/hr, 22 hours. Cedar boards and posts $1,150. I write notes like this: \"Hi Rob, here's the number for the fence. Takes two days. Let me know.\" Build the estimate and the note.",
+    "expected_behavior": [
+      "Line items for labor ($1,430.00) and materials ($1,150.00) with total $2,580.00",
+      "Includes a price-holds line and any missing items under Check before you send",
+      "Cover note is short and plain like the sample"
+    ],
+    "success_criteria": [
+      "Invents no costs or materials; the 14-day price hold is the plugin's default and other terms are bracketed or flagged",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'",
+      "Math is exact"
     ]
   }
 ]

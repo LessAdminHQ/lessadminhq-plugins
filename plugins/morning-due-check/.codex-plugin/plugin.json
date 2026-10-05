@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Turns a pasted list of open invoices and estimates into one short check of what's due today, what's overdue, and what's coming up, with a short nudge for each overdue item.",
+  "homepage": "https://lessadminhq.com/tools/morning-due-check/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Today is March 10. Here are my open invoices. What do I need to chase today?"
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Morning Due Check",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Morning Due Check turns a list of your open invoices, estimates, and follow-ups into one short check: what's due today or already overdue, what's coming this week, and what has no date. It shows days overdue and totals, and drafts a short friendly nudge for each overdue item. It only knows what you paste, tells you which date it used, and never invents fees or threats. It never sends anything for you. You check it and send it yourself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "One list of what's due or overdue today",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "what's due today",
+    "overdue invoices list",
+    "morning check for unpaid invoices",
+    "who owes me money",
+    "open invoices review",
+    "follow up on unpaid estimates",
+    "accounts receivable",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "name": "morning-due-check",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

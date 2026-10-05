@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Turns rough job notes into a one-page customer summary: what was done, what was found, what to watch, and what's next. Never invents work, parts, or warranty terms.",
+  "homepage": "https://lessadminhq.com/tools/post-job-summary/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "I just finished replacing a water heater at the Pruitt house. Write the one-page summary for the customer."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Post-Job Summary",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Post-Job Summary turns the rough notes you dictate after a job into a one-page summary the customer can keep: what you did, what you found, what to keep an eye on, and what's next, plus a short text and email to send with it. It never invents work, parts, warranty terms, or prices, and it puts any safety problem you mention at the top in your own words. It never sends anything for you. You check it and send it yourself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "A clean one-pager after every job",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "job summary for customer",
+    "after-job summary",
+    "one page summary after a job",
+    "what we did note",
+    "leave something behind after a job",
+    "repeat customers",
+    "small business",
+    "contractor",
+    "trades",
+    "repair"
+  ],
+  "name": "post-job-summary",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

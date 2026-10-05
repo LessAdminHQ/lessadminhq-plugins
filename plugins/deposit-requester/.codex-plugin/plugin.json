@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Writes a short text and email asking a customer for a deposit once they say yes, plus a confirmation for when it's paid. The owner sets the amount and the terms.",
+  "homepage": "https://lessadminhq.com/tools/deposit-requester/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Rob accepted my $2,580 fence estimate. I want 20% down to hold the 14th. Write the deposit request."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Deposit Requester",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Deposit Requester writes the message you need after a customer says yes: a short text and a matching email asking for the deposit, a confirmation to send once it's paid, and, if you want one, a short deposit policy for your booking page. You set the amount and the terms. It works out percentages exactly, never invents a refund or cancellation rule, and never makes legal claims. It never sends anything for you. You check it and send it yourself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Ask for the deposit without the awkward feeling",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "ask for a deposit",
+    "deposit request message",
+    "down payment request",
+    "no-show deposit",
+    "customer accepted my quote",
+    "lock in the date",
+    "booking confirmation",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "name": "deposit-requester",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

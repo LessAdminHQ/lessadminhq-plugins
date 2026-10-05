@@ -1,7 +1,7 @@
 {
   "name": "invoice-matcher",
   "displayName": "Invoice Matcher",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Matches bank deposits to open invoices and shows what's paid, unpaid, and needs a look. Flags lump sums, sets aside refunds and fees, and never guesses quietly.",
   "author": {
     "name": "Less Admin HQ",

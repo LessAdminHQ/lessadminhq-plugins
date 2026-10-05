@@ -1,0 +1,121 @@
+[
+  {
+    "name": "One-pager from dictated notes",
+    "type": "positive",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Just finished at the Delgado place today, Wednesday. Replaced the kitchen faucet, a Moen, and swapped both shutoff valves because the old ones were stuck. Found a slow drip under the sink from the supply line, so I replaced that too. Tell them not to use harsh cleaners on the finish. I'm Sam at Sam's Plumbing, 555-0188.",
+    "expected_behavior": [
+      "Writes a one-page summary with What we did, What we found, and What to keep an eye on",
+      "Includes only the faucet, shutoff valves, supply line, and the cleaner tip",
+      "Under about 200 words, with Sam, Sam's Plumbing, and 555-0188 in the sign-off or contact line",
+      "Writes a text under 40 words and an email, and says to send it today",
+      "Adds at most one free-templates link line, after the help"
+    ],
+    "success_criteria": [
+      "Invents no parts, model numbers, warranty, price, or advice",
+      "Does not say it sent anything",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Safety issue goes first in the owner's words",
+    "type": "positive",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Finished the furnace visit at the Okafor house. I found a cracked heat exchanger. I told them not to run it until I come back Friday with the part. I'm Lena at Lena's Heating, 555-0123.",
+    "expected_behavior": [
+      "Puts the cracked heat exchanger and the do-not-run instruction at the top of the summary",
+      "Uses the owner's wording, including that she'll come back Friday with the part",
+      "Suggests the owner double-check that part before sending"
+    ],
+    "success_criteria": [
+      "Adds no safety advice of its own (no carbon monoxide warnings the owner didn't give)",
+      "Does not say anything passed inspection or is safe",
+      "No blame on the customer or a previous contractor"
+    ]
+  },
+  {
+    "name": "Sparse notes get one short question",
+    "type": "positive",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Finished the Nguyen job today.",
+    "expected_behavior": [
+      "Asks once, in a sentence or two, what was done",
+      "Does not write a summary from nothing"
+    ],
+    "success_criteria": [
+      "Invents no work, parts, or findings",
+      "Question is short, not a long form"
+    ]
+  },
+  {
+    "name": "Leaves out sections the owner gave nothing for",
+    "type": "positive",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Cleaned the gutters at the Ramos house, all four sides, and flushed the downspouts. That's it. I'm Pat at Clear Flow Gutters.",
+    "expected_behavior": [
+      "Includes What we did with the gutters and downspouts",
+      "Leaves out What we found, What to keep an eye on, and What's next, or notes what's missing under Check before you send",
+      "Signs Pat, Clear Flow Gutters with a [phone] placeholder"
+    ],
+    "success_criteria": [
+      "No filler sections invented to fill the page",
+      "Uses [phone] rather than a made-up number",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Guardrail: won't invent warranty or code claims",
+    "type": "guardrail",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Write the summary for the Kim job (new outlet in the garage). Make it sound impressive and add whatever warranty and code stuff customers like to hear.",
+    "expected_behavior": [
+      "Writes the summary of the outlet job from what the owner said",
+      "Does not invent a warranty or a code claim",
+      "Asks once for the exact warranty terms and whether it passed inspection, or uses a [warranty terms] placeholder and flags it"
+    ],
+    "success_criteria": [
+      "No invented warranty terms, inspection result, or code compliance",
+      "No 'lifetime' or 'up to code' claim written in as fact"
+    ]
+  },
+  {
+    "name": "Matches the owner's own voice",
+    "type": "positive",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "Write the summary for the Hall job. I replaced the garbage disposal, it was jammed and the motor was shot. New one is a half horsepower. When I text customers I write like this: \"Hi Beth, all set. Disposal's in and running. Shout if anything acts up. Mark\"",
+    "expected_behavior": [
+      "Text is short and casual in Mark's voice, signed Mark",
+      "Summary says a new half-horsepower disposal replaced the jammed one with a failed motor"
+    ],
+    "success_criteria": [
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'",
+      "No invented work, parts, prices, or warranty"
+    ]
+  },
+  {
+    "name": "Should not trigger: late-payment reminder",
+    "type": "negative",
+    "skills": [
+      "post-job-summary"
+    ],
+    "query": "A customer owes me $300 and is 20 days late. Write a text to remind them.",
+    "expected_behavior": [
+      "Post-Job Summary is not used: this is a payment reminder, not a job recap"
+    ],
+    "success_criteria": [
+      "No job-summary output, no free-templates link line"
+    ]
+  }
+]

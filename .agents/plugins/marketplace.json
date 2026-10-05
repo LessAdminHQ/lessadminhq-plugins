@@ -63,6 +63,66 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "post-job-summary",
+      "source": {
+        "source": "local",
+        "path": "./plugins/post-job-summary"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deposit-requester",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deposit-requester"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "post-call-confirmer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/post-call-confirmer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "timesheet-prep",
+      "source": {
+        "source": "local",
+        "path": "./plugins/timesheet-prep"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "morning-due-check",
+      "source": {
+        "source": "local",
+        "path": "./plugins/morning-due-check"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

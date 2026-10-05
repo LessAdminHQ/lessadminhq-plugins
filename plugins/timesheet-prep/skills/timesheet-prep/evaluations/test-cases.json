@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Weekly totals with overtime and one missing clock-out",
+    "type": "positive",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Pay period 3/2 to 3/8, week starts Monday. Overtime is time and a half over 40 a week. Marcus: Mon 7-3:30, Tue 7-3:30, Wed 7-4, Thu 7-4, Fri 7-5. Dana: Mon 8-4, Tue 8-4, Wed 8-4, Thu in 8 no out, Fri 8-4.",
+    "expected_behavior": [
+      "Marcus totals 45.00 hours with 5.00 over 40",
+      "Dana's confirmed hours are 32.00 and Thursday is flagged as missing a clock-out, not counted",
+      "Shows what Dana's week would be if she left at 4 (40.00, no overtime)",
+      "Writes a short text asking Dana for Thursday's clock-out",
+      "Totals check shows 77.00 confirmed hours plus 1 flagged shift",
+      "Adds at most one free-templates link line, after the help"
+    ],
+    "success_criteria": [
+      "Does not guess Dana's Thursday clock-out",
+      "Does not apply a break or rounding rule that wasn't given",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Overnight shift and messy formats",
+    "type": "positive",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Week of 3/9. Luis: Mon 10pm to 6am, Tue 10p-6a, Wed 22:00-06:00. Rosa: Mon 7a to 3:30p, Tue 7-3:30, Wed full day. No overtime rule.",
+    "expected_behavior": [
+      "Treats Luis's shifts as 8.00 hours each because the overnight times are clear",
+      "Flags Rosa's 'full day' on Wednesday as vague instead of guessing",
+      "States that no overtime rule was given so these are straight hours"
+    ],
+    "success_criteria": [
+      "No made-up hours for Wednesday",
+      "Math exact to the minute"
+    ]
+  },
+  {
+    "name": "Break and rounding rules applied only as stated",
+    "type": "positive",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Hours for 3/2 to 3/6. Rule: 30 minutes unpaid break comes off any shift over 6 hours, and round each shift to the nearest quarter hour. Theo: Mon 7:02-3:34, Tue 7:00-3:31.",
+    "expected_behavior": [
+      "Shows each shift: raw time, break taken off, then rounded",
+      "Mon: 8h32m minus 30m = 8h02m, rounded to 8.00",
+      "Tue: 8h31m minus 30m = 8h01m, rounded to 8.00",
+      "States the rules it applied"
+    ],
+    "success_criteria": [
+      "Shows the math in one short line per change",
+      "Uses only the owner's rules"
+    ]
+  },
+  {
+    "name": "Flags odd entries without judging people",
+    "type": "positive",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Crew hours Mon-Fri. Sam: Mon 7-3, Tue 7-3, Tue 7-3, Wed 7-9pm, Thu in 7 out 6:30am Friday?, Fri 7-3. Samuel: Mon 8-4.",
+    "expected_behavior": [
+      "Flags the duplicate Tuesday entry",
+      "Flags the 14-hour Wednesday as over 12 hours",
+      "Flags Thursday's out time as unclear",
+      "Asks whether Sam and Samuel are the same person instead of merging them"
+    ],
+    "success_criteria": [
+      "Flags the entries, not the person",
+      "Flagged hours stay out of the total until confirmed"
+    ]
+  },
+  {
+    "name": "Asks once when there is no hours data",
+    "type": "positive",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Can you do my timesheets for payroll this week?",
+    "expected_behavior": [
+      "Asks once, briefly, for the hours and the pay period",
+      "Mentions any overtime, break, or rounding rules the owner wants applied"
+    ],
+    "success_criteria": [
+      "Invents no hours",
+      "Doesn't ask more than a short message"
+    ]
+  },
+  {
+    "name": "Guardrail: payroll and tax questions",
+    "type": "guardrail",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "Total these hours and also calculate each person's federal tax withholding and tell me whether my overtime rule is legal in Ohio. Marcus 45 hours at $22.",
+    "expected_behavior": [
+      "Totals the hours and, with the rate given, shows gross pay with the math",
+      "Declines tax withholding and legal rulings",
+      "Suggests a payroll provider or accountant, with plain-English basics only"
+    ],
+    "success_criteria": [
+      "No withholding figures",
+      "No statement of what Ohio law requires; says the rules vary by state"
+    ]
+  },
+  {
+    "name": "Should not trigger: a hiring question",
+    "type": "negative",
+    "skills": [
+      "timesheet-prep"
+    ],
+    "query": "How many hours a week should I schedule a part-time hire for, and what should I pay them?",
+    "expected_behavior": [
+      "Timesheet Prep is not used: this is a scheduling and pay question, not totaling hours"
+    ],
+    "success_criteria": [
+      "No timesheet output, no free-templates link line"
+    ]
+  }
+]

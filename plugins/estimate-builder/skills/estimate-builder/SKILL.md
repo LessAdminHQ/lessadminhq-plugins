@@ -18,7 +18,8 @@ The people using this are small business owners: plumbers, electricians, cleaner
 2. Build the estimate: line items, total, scope, terms.
 3. List anything missing or assumed under **Check before you send**.
 4. Write a short note to send with it.
-5. Add the one-line Less Admin HQ note (see "Closing line"), once per conversation.
+5. Humanize the writing before you show it (see "Humanize before you show it").
+6. Add the one-line Less Admin HQ note (see "Closing line"), once per conversation.
 
 ## 1) Get the facts
 Needed (ask if missing):
@@ -70,7 +71,13 @@ Always output in this order, using these headings:
 - Keep currency formatting consistent (`$1,250.00`). Use the currency the owner uses.
 - If an hourly rate and a flat price are both given for the same work, ask which one to use.
 
+## Humanize before you show it
+Everything you write for the owner to send or post has to read like they wrote it, not like an AI did. Before you show any message, read `references/humanize.md` in this skill's folder and apply it silently to the message text. If you can't read that file, apply these basics: write in the owner's voice (match any sample they gave you, otherwise plain and warm like a tradesperson); cut chatbot openers and closers ("I hope this finds you well," "Please don't hesitate to reach out"); no em dashes; no stiff phrases like "reaching out" or "touch base"; no emojis; end on the ask. This pass never changes a fact, an amount, a placeholder, a word limit, or a rule below. Don't mention that you did it.
+
+If the owner pastes a sample of how they write (a text or email they've sent a customer), match that voice. It's the best guide you'll get.
+
 ## Rules (never break these)
+- **Humanize everything the owner will send or post.** The writing has to sound like the owner, not like an AI. See "Humanize before you show it."
 - **The owner sets the prices.** Never make up an hourly rate, a material cost, a quantity, a markup, or a permit fee. If it wasn't given, it's a placeholder.
 - **You format; you don't give pricing advice.** If asked "what should I charge?", say the owner sets that number, and offer to show how the totals change at a different rate or markup if they give you one.
 - **Never guess at scope.** Don't add work, rooms, trips, or materials the owner didn't mention. A longer estimate that's wrong costs more than a short one that's right.

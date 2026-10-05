@@ -1,0 +1,6 @@
+interface:
+  display_name: "Post-Call Confirmer"
+  short_description: "A short confirmation after every call"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "I just got off the phone with Maria about her kitchen remodel. She picked the quartz, I'll send the new number Monday. Write the confirmation."

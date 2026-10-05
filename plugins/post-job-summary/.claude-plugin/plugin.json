@@ -1,0 +1,30 @@
+{
+  "name": "post-job-summary",
+  "displayName": "Post-Job Summary",
+  "version": "0.1.0",
+  "description": "Turns rough job notes into a one-page customer summary: what was done, what was found, what to watch, and what's next. Never invents work, parts, or warranty terms.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/post-job-summary/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "job summary for customer",
+    "after-job summary",
+    "one page summary after a job",
+    "what we did note",
+    "leave something behind after a job",
+    "repeat customers",
+    "small business",
+    "contractor",
+    "trades",
+    "repair"
+  ],
+  "documentationUrl": "https://lessadminhq.com/tools/post-job-summary/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

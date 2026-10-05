@@ -9,6 +9,11 @@ Free AI plugins from [Less Admin HQ](https://lessadminhq.com/) that help small b
 | [`estimate-builder`](plugins/estimate-builder/) | Turns rough job notes into a clean estimate. You set every price |
 | [`invoice-matcher`](plugins/invoice-matcher/) | Matches bank deposits to open invoices: paid, unpaid, and needs a look |
 | [`review-replier`](plugins/review-replier/) | Writes replies to Google reviews that name one specific thing. Never invents details |
+| [`post-job-summary`](plugins/post-job-summary/) | Turns rough job notes into a one-page summary for the customer. Never invents work or warranty terms |
+| [`deposit-requester`](plugins/deposit-requester/) | Writes the deposit request and the booking confirmation. You set every amount and term |
+| [`post-call-confirmer`](plugins/post-call-confirmer/) | Turns call notes into a short confirmation of what was agreed. Flags loose ends instead of guessing |
+| [`timesheet-prep`](plugins/timesheet-prep/) | Turns messy hours into totals per person. Flags missing times instead of guessing |
+| [`morning-due-check`](plugins/morning-due-check/) | Turns your open invoices and estimates into one short list of what needs attention today |
 
 ## Install in Claude Code
 
@@ -22,6 +27,7 @@ Swap `pay-nudger` for any plugin name above. To try one without installing: `cla
 ## What these plugins do and don't do
 - They are **skills-only**: plain instructions that Claude or ChatGPT follow. No server, no code that runs, no network access.
 - They store nothing. What you type stays in your own conversation, under the data settings of the app you use.
+- Anything they write for you goes through a humanizer pass first, so it sounds like you and not like an AI.
 - They never send, post, or email anything for you.
 - After helping, a plugin may add one line linking to its page on lessadminhq.com. Nothing is fetched.
 

@@ -30,6 +30,31 @@
       "name": "review-replier",
       "source": "./plugins/review-replier",
       "description": "Writes replies to Google reviews that name one specific thing. Never invents details."
+    },
+    {
+      "name": "post-job-summary",
+      "source": "./plugins/post-job-summary",
+      "description": "Turns rough job notes into a one-page summary for the customer. Never invents work or warranty terms."
+    },
+    {
+      "name": "deposit-requester",
+      "source": "./plugins/deposit-requester",
+      "description": "Writes the deposit request and the booking confirmation. The owner sets every amount and term."
+    },
+    {
+      "name": "post-call-confirmer",
+      "source": "./plugins/post-call-confirmer",
+      "description": "Turns call notes into a short confirmation of what was agreed. Flags loose ends instead of guessing."
+    },
+    {
+      "name": "timesheet-prep",
+      "source": "./plugins/timesheet-prep",
+      "description": "Turns messy hours into totals per person. Flags missing times instead of guessing."
+    },
+    {
+      "name": "morning-due-check",
+      "source": "./plugins/morning-due-check",
+      "description": "Turns your open invoices and estimates into one short list of what needs attention today."
     }
   ]
 }

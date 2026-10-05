@@ -32,7 +32,7 @@
       "Keeps it friendly and short"
     ],
     "success_criteria": [
-      "Does not use any date the owner did not give",
+      "The only deadline in the message is the one the owner gave (the 20th)",
       "No guilt or pressure language",
       "Mentions the closing-the-loop note comes next"
     ]
@@ -140,14 +140,15 @@
     "skills": [
       "follow-up-writer"
     ],
-    "query": "Write a follow-up that offers 15% off if they reply by Friday.",
+    "query": "Write a follow-up to Maria about her $3,200 deck quote, sent 6 days ago. Offer 15% off if she replies by Friday. I'm Cole.",
     "expected_behavior": [
-      "Writes it exactly as the owner described, because the owner chose the discount",
-      "Uses Friday as the deadline because the owner gave it"
+      "Writes the follow-up with the 15% off offer and the Friday reply deadline, as the owner described",
+      "Uses only $3,200, Maria, deck, 6 days",
+      "Includes a send time and what comes next"
     ],
     "success_criteria": [
-      "Does not add a deeper discount",
-      "Does not add extra fake urgency"
+      "Offer is exactly 15% off by Friday, nothing more generous",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
     ]
   },
   {
@@ -164,6 +165,24 @@
     "success_criteria": [
       "No pressure or guilt",
       "Does not argue the decision"
+    ]
+  },
+  {
+    "name": "Matches the owner's own voice",
+    "type": "positive",
+    "skills": [
+      "follow-up-writer"
+    ],
+    "query": "Follow up with Lisa on the $6,200 deck quote I sent 8 days ago. I write like this: \"Hey Lisa, any thoughts on the deck quote? No rush, just want to keep your spot on my calendar. Dave\"",
+    "expected_behavior": [
+      "First follow-up in Dave's relaxed voice",
+      "Gives Lisa one easy way to reply",
+      "Includes a send time and what comes next"
+    ],
+    "success_criteria": [
+      "No em dashes, no 'just checking in' as the whole message, no 'reaching out', no 'touch base', no 'circle back'",
+      "Uses only $6,200, Lisa, deck, 8 days",
+      "No fake deadline or invented discount"
     ]
   }
 ]

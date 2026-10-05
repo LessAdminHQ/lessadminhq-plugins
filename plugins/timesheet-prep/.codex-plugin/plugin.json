@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Turns messy clock-in and clock-out texts into a clean payroll-ready summary per person. Flags missing and odd entries instead of guessing, and applies only the owner's own rules.",
+  "homepage": "https://lessadminhq.com/tools/timesheet-prep/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "Here are my crew's hours for the week. Total them for payroll and flag anything that looks wrong."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Timesheet Prep",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Timesheet Prep takes the hours your crew texts you, or a time-clock export, and turns them into a clean summary per person: hours by day and week, overtime if you have a rule for it, and a period total. It flags missing clock-outs, overnight shifts, and odd entries instead of guessing, and it drafts short messages asking employees to confirm anything missing. It applies only the rules you give it. It isn't payroll, tax, or legal advice, and it never sends anything for you.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "Messy hours in, clean payroll totals out",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "total employee hours",
+    "timesheet summary",
+    "clock in clock out texts",
+    "payroll prep",
+    "collecting timesheets",
+    "hours for payroll",
+    "check timesheets for mistakes",
+    "small business",
+    "crew",
+    "trades"
+  ],
+  "name": "timesheet-prep",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}

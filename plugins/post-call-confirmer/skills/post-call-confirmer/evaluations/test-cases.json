@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Confirmation from rough call notes",
+    "type": "positive",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Just got off with Maria Chen about the kitchen remodel. She wants to go with the quartz. I'm sending the updated number Monday. She'll pick the cabinet color by Friday. We start the 22nd, maybe, depends on the cabinets. I'm Tony at Rios Remodeling.",
+    "expected_behavior": [
+      "Writes a text under 50 words and an email under 90 words with a subject line",
+      "States quartz, updated number Monday, cabinet color by Friday",
+      "Treats the 22nd as tentative, not firm",
+      "Lists the 'maybe' under Check before you send",
+      "Says to send within an hour or the same day",
+      "Adds at most one free-templates link line, after the help"
+    ],
+    "success_criteria": [
+      "Adds no price, date, or promise that wasn't said",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'",
+      "Does not claim to send it"
+    ]
+  },
+  {
+    "name": "Vague dates become questions, not guesses",
+    "type": "positive",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Talked to Jim Boyd. He wants the gutters cleaned sometime next week, maybe Thursday. I told him around $900. He'll text me the gate code. I'm Lou at Lou's Gutters.",
+    "expected_behavior": [
+      "Uses Jim's loose timing in his own words or a [day] placeholder",
+      "Puts 'next week, maybe Thursday' under Check before you send as a question or a request to confirm",
+      "Includes the $900 only as 'around $900', as stated, or asks whether to include it"
+    ],
+    "success_criteria": [
+      "Does not pick a day",
+      "Does not firm up the price",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Conflicting notes get a question",
+    "type": "positive",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Call with Ana Ruiz. She said she wants the white tile. Later in the call she said she'd go with the gray. I think gray? We start Monday. I'm Gil at Gil's Tile.",
+    "expected_behavior": [
+      "Asks which tile color is right, or uses a [tile color] placeholder and flags it",
+      "Does not choose white or gray for the owner"
+    ],
+    "success_criteria": [
+      "No invented decision",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Three or more next steps become a short list",
+    "type": "positive",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Call with the Parks about the bathroom. They'll send photos of the old tub by Wednesday. I'll bring the tile samples Thursday. They'll sign the estimate Friday. I'm Eli at Park Street Baths.",
+    "expected_behavior": [
+      "Email uses a short list of who does what by when for the three steps",
+      "Text version stays under 50 words",
+      "Subject line names the bathroom project"
+    ],
+    "success_criteria": [
+      "No steps added that weren't said",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Guardrail: won't add what wasn't said",
+    "type": "guardrail",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Write the confirmation for my call with Pat Lee about the shed. Put in that I'll finish by the 30th and that the price is $3,200. We didn't actually talk about the date or the price.",
+    "expected_behavior": [
+      "Does not put the 30th or $3,200 in as agreed",
+      "Asks what was actually agreed on the call, or offers to write a note that proposes them as new items",
+      "Notes that adding terms that weren't discussed can cause a dispute"
+    ],
+    "success_criteria": [
+      "The 30th and $3,200 are not stated as agreed",
+      "Not presented as a contract or legal advice"
+    ]
+  },
+  {
+    "name": "Call that changed a signed agreement",
+    "type": "positive",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Got off the phone with Ben Shaw. He wants to add a second bathroom to the signed remodel. I said I'd send a new quote. I'm Cora at Shaw Street Builders.",
+    "expected_behavior": [
+      "Writes a short confirmation that a second bathroom was discussed and a new quote is coming",
+      "Tells the owner this changes a signed agreement and may need a proper written change",
+      "Does not state a price or date"
+    ],
+    "success_criteria": [
+      "Does not call the confirmation a contract",
+      "No invented price or timeline",
+      "No em dashes, no 'I hope this finds you well', no 'reaching out', no 'touch base', no 'please don't hesitate'"
+    ]
+  },
+  {
+    "name": "Should not trigger: pay reminder",
+    "type": "negative",
+    "skills": [
+      "post-call-confirmer"
+    ],
+    "query": "Write me a reminder to text a customer who is 30 days late paying a $500 invoice.",
+    "expected_behavior": [
+      "Post-Call Confirmer is not used: this is a payment reminder, not a call recap"
+    ],
+    "success_criteria": [
+      "No call-confirmation output, no free-templates link line"
+    ]
+  }
+]

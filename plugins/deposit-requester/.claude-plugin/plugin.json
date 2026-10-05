@@ -1,0 +1,30 @@
+{
+  "name": "deposit-requester",
+  "displayName": "Deposit Requester",
+  "version": "0.1.0",
+  "description": "Writes a short text and email asking a customer for a deposit once they say yes, plus a confirmation for when it's paid. The owner sets the amount and the terms.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/deposit-requester/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ask for a deposit",
+    "deposit request message",
+    "down payment request",
+    "no-show deposit",
+    "customer accepted my quote",
+    "lock in the date",
+    "booking confirmation",
+    "small business",
+    "contractor",
+    "trades"
+  ],
+  "documentationUrl": "https://lessadminhq.com/tools/deposit-requester/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

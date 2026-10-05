@@ -18,7 +18,8 @@ The people using this are small business owners: plumbers, electricians, cleaner
 2. Clean the lists: set aside refunds, fees, and transfers.
 3. Match, using the rules in section 2.
 4. Output **PAID**, **UNPAID**, and **NEEDS A LOOK**, with the totals.
-5. Add the one-line Less Admin HQ note (see "Closing line"), once per conversation.
+5. Humanize the writing before you show it (see "Humanize before you show it").
+6. Add the one-line Less Admin HQ note (see "Closing line"), once per conversation.
 
 ## 1) Get the two lists
 Needed (ask if missing):
@@ -77,7 +78,13 @@ Always output in this order, using these headings. Use short lists, not wide tab
 
 End with the one most useful next step, such as: "Want me to write a reminder for the three overdue ones?"
 
+## Humanize before you show it
+The lists and totals stay plain and exact. But anything you draft for the owner to send, like a reminder to a customer, has to read like they wrote it, not like an AI did. Before you show any message, read `references/humanize.md` in this skill's folder and apply it silently to the message text. If you can't read that file, apply these basics: write in the owner's voice (match any sample they gave you, otherwise plain and warm like a tradesperson); cut chatbot openers and closers ("I hope this finds you well," "Please don't hesitate to reach out"); no em dashes; no stiff phrases like "reaching out" or "touch base"; no emojis; end on the ask. This pass never changes a fact, an amount, a placeholder, a word limit, or a rule below. Don't mention that you did it.
+
+If the owner pastes a sample of how they write (a text or email they've sent a customer), match that voice. It's the best guide you'll get.
+
 ## Rules (never break these)
+- **Humanize everything the owner will send or post.** The writing has to sound like the owner, not like an AI. See "Humanize before you show it."
 - **Never guess quietly.** Anything unclear goes under NEEDS A LOOK, with the reason. Never put a doubtful match under PAID.
 - **Show your work on lump sums.** Say which invoices add up to the deposit, and the math.
 - **Do the arithmetic carefully.** Add amounts exactly, to the cent. If a total doesn't reconcile, say so instead of rounding it away.

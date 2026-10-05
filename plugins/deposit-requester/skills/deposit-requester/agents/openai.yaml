@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deposit Requester"
+  short_description: "Ask for the deposit without the awkward feeling"
+  icon_small: "./assets/less-admin-hq-small.svg"
+  icon_large: "./assets/less-admin-hq.png"
+  default_prompt: "Rob accepted my $2,580 fence estimate. I want 20% down to hold the 14th. Write the deposit request."

@@ -1,0 +1,30 @@
+{
+  "name": "timesheet-prep",
+  "displayName": "Timesheet Prep",
+  "version": "0.1.0",
+  "description": "Turns messy clock-in and clock-out texts into a clean payroll-ready summary per person. Flags missing and odd entries instead of guessing, and applies only the owner's own rules.",
+  "author": {
+    "name": "Less Admin HQ",
+    "email": "hello@lessadminhq.com",
+    "url": "https://lessadminhq.com/"
+  },
+  "homepage": "https://lessadminhq.com/tools/timesheet-prep/",
+  "repository": "https://github.com/TomHoupt/lessadminhq-plugins",
+  "license": "MIT",
+  "keywords": [
+    "total employee hours",
+    "timesheet summary",
+    "clock in clock out texts",
+    "payroll prep",
+    "collecting timesheets",
+    "hours for payroll",
+    "check timesheets for mistakes",
+    "small business",
+    "crew",
+    "trades"
+  ],
+  "documentationUrl": "https://lessadminhq.com/tools/timesheet-prep/",
+  "supportUrl": "https://lessadminhq.com/about/",
+  "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
+  "termsOfServiceUrl": "https://lessadminhq.com/terms/"
+}

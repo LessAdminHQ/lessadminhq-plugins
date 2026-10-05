@@ -1,7 +1,7 @@
 {
   "name": "review-replier",
   "displayName": "Review Replier",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
   "author": {
     "name": "Less Admin HQ",

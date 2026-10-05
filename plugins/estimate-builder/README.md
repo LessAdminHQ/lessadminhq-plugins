@@ -13,6 +13,7 @@ Once it's installed, ask something like:
 ## What it does and doesn't do
 - It is a **skills-only plugin**: plain instructions that Claude or ChatGPT follow. There is no server, no code that runs, and no network access.
 - It stores nothing. What you type stays in your own conversation, under the data settings of the app you use.
+- Anything it writes for you goes through a humanizer pass first, so it sounds like you and not like an AI. Show it a text you've sent and it will match your voice.
 - It never sends, posts, or emails anything for you. You copy the result and send it yourself.
 - It uses only the facts you give it and says so when something is missing.
 - After it helps, it may add **one** line linking to https://lessadminhq.com/tools/estimate-builder/. That is the only link it ever shows. Nothing is fetched, and the link carries only a source tag (`claude` or `chatgpt`) so we can see which app it came from.
@@ -28,7 +29,8 @@ estimate-builder/
     SKILL.md                     the instructions (the actual plugin)
     agents/openai.yaml           display name and default prompt for ChatGPT (ignored by Claude)
     examples/                    worked examples with made-up names and amounts
-    evaluations/test-cases.json  5 should-trigger, 3 should-not-trigger, 2 guardrail test cases
+    references/humanize.md       the pass that keeps the writing from sounding like AI
+    evaluations/test-cases.json  11 test cases: should-trigger, should-not-trigger, and guardrail
   LICENSE                        MIT
 ```
 
@@ -53,7 +55,7 @@ claude plugin install estimate-builder@less-admin-hq
 `skills/estimate-builder/evaluations/test-cases.json` holds the test cases we check by hand before each release: requests where it should kick in, requests where it should stay out of the way, and guardrail checks (such as being asked to send something).
 
 ## Version
-0.1.0. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+0.1.2. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
 
 Terms of service: https://lessadminhq.com/terms/
 Privacy policy: https://lessadminhq.com/privacy/

@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "hello@lessadminhq.com",
+    "name": "Less Admin HQ",
+    "url": "https://lessadminhq.com/"
+  },
+  "description": "Turns rough call notes into a two-to-four sentence confirmation of what was agreed and what happens next, and flags anything the notes left unclear.",
+  "homepage": "https://lessadminhq.com/tools/post-call-confirmer/",
+  "interface": {
+    "brandColor": "#7FCA59",
+    "brandColorDark": "#7FCA59",
+    "capabilities": [
+      "Write"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./assets/less-admin-hq-small.svg",
+    "defaultPrompt": [
+      "I just got off the phone with Maria about her kitchen remodel. She picked the quartz, I'll send the new number Monday. Write the confirmation."
+    ],
+    "developerName": "Less Admin HQ",
+    "displayName": "Post-Call Confirmer",
+    "logo": "./assets/less-admin-hq.png",
+    "logoDark": "./assets/less-admin-hq.png",
+    "longDescription": "Post-Call Confirmer turns your rough notes from a call into a short confirmation you can text or email right away: what was agreed, what happens next, and who does what by when. If your notes leave something unclear, like 'maybe Thursday,' it asks instead of guessing. It never adds a price, date, or promise that wasn't said, and it never sends anything for you. You check it and send it yourself.",
+    "privacyPolicyURL": "https://lessadminhq.com/privacy/",
+    "screenshots": [],
+    "shortDescription": "A short confirmation after every call",
+    "termsOfServiceURL": "https://lessadminhq.com/terms/",
+    "websiteURL": "https://lessadminhq.com/"
+  },
+  "keywords": [
+    "confirmation email after a call",
+    "recap after a client call",
+    "call follow up message",
+    "what we agreed on the call",
+    "put it in writing",
+    "meeting recap",
+    "small business",
+    "contractor",
+    "consultant",
+    "trades"
+  ],
+  "name": "post-call-confirmer",
+  "skills": "./skills/",
+  "version": "0.1.0"
+}
