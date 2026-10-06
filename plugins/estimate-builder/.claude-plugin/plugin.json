@@ -1,14 +1,14 @@
 {
   "name": "estimate-builder",
   "displayName": "Estimate Builder",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Turns rough job notes into a clean written estimate: labor and materials line items, a total, plain-English terms, and a note to send with it. The owner sets every price.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/estimate-builder/",
+  "homepage": "https://lessadminhq.com/tools/estimate-builder/?utm_source=directory&utm_medium=plugin&utm_campaign=estimate-builder",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "contractor",
     "trades"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/estimate-builder/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/estimate-builder/?utm_source=directory&utm_medium=plugin&utm_campaign=estimate-builder",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

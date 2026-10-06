@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
-  "homepage": "https://lessadminhq.com/tools/pay-nudger/",
+  "homepage": "https://lessadminhq.com/tools/pay-nudger/?utm_source=directory&utm_medium=plugin&utm_campaign=pay-nudger",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Get paid without awkward calls",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=pay-nudger"
   },
   "keywords": [
     "late payment reminder",
@@ -42,5 +42,5 @@
   ],
   "name": "pay-nudger",
   "skills": "./skills/",
-  "version": "0.1.5"
+  "version": "0.1.6"
 }

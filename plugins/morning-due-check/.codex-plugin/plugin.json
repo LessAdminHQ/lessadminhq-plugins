@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Turns a pasted list of open invoices and estimates into one short check of what's due today, what's overdue, and what's coming up, with a short nudge for each overdue item.",
-  "homepage": "https://lessadminhq.com/tools/morning-due-check/",
+  "homepage": "https://lessadminhq.com/tools/morning-due-check/?utm_source=directory&utm_medium=plugin&utm_campaign=morning-due-check",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "One list of what's due or overdue today",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=morning-due-check"
   },
   "keywords": [
     "what's due today",
@@ -42,5 +42,5 @@
   ],
   "name": "morning-due-check",
   "skills": "./skills/",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

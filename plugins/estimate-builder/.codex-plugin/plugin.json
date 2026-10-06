@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Turns rough job notes into a clean written estimate: labor and materials line items, a total, plain-English terms, and a note to send with it. The owner sets every price.",
-  "homepage": "https://lessadminhq.com/tools/estimate-builder/",
+  "homepage": "https://lessadminhq.com/tools/estimate-builder/?utm_source=directory&utm_medium=plugin&utm_campaign=estimate-builder",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Turn job notes into a clean estimate",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=estimate-builder"
   },
   "keywords": [
     "write an estimate",
@@ -42,5 +42,5 @@
   ],
   "name": "estimate-builder",
   "skills": "./skills/",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

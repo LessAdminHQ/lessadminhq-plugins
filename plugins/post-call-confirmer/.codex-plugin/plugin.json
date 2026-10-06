@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Turns rough call notes into a two-to-four sentence confirmation of what was agreed and what happens next, and flags anything the notes left unclear.",
-  "homepage": "https://lessadminhq.com/tools/post-call-confirmer/",
+  "homepage": "https://lessadminhq.com/tools/post-call-confirmer/?utm_source=directory&utm_medium=plugin&utm_campaign=post-call-confirmer",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "A short confirmation after every call",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=post-call-confirmer"
   },
   "keywords": [
     "confirmation email after a call",
@@ -42,5 +42,5 @@
   ],
   "name": "post-call-confirmer",
   "skills": "./skills/",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

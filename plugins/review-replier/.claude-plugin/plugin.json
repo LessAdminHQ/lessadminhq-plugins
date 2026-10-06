@@ -1,14 +1,14 @@
 {
   "name": "review-replier",
   "displayName": "Review Replier",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/review-replier/",
+  "homepage": "https://lessadminhq.com/tools/review-replier/?utm_source=directory&utm_medium=plugin&utm_campaign=review-replier",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "trades",
     "reputation"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/review-replier/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/review-replier/?utm_source=directory&utm_medium=plugin&utm_campaign=review-replier",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

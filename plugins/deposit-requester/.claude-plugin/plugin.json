@@ -1,14 +1,14 @@
 {
   "name": "deposit-requester",
   "displayName": "Deposit Requester",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Writes a short text and email asking a customer for a deposit once they say yes, plus a confirmation for when it's paid. The owner sets the amount and the terms.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/deposit-requester/",
+  "homepage": "https://lessadminhq.com/tools/deposit-requester/?utm_source=directory&utm_medium=plugin&utm_campaign=deposit-requester",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "contractor",
     "trades"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/deposit-requester/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/deposit-requester/?utm_source=directory&utm_medium=plugin&utm_campaign=deposit-requester",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

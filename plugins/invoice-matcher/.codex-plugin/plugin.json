@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Matches bank deposits to open invoices and shows what's paid, unpaid, and needs a look. Flags lump sums, sets aside refunds and fees, and never guesses quietly.",
-  "homepage": "https://lessadminhq.com/tools/invoice-matcher/",
+  "homepage": "https://lessadminhq.com/tools/invoice-matcher/?utm_source=directory&utm_medium=plugin&utm_campaign=invoice-matcher",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Match bank deposits to open invoices",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=invoice-matcher"
   },
   "keywords": [
     "match payments to invoices",
@@ -42,5 +42,5 @@
   ],
   "name": "invoice-matcher",
   "skills": "./skills/",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

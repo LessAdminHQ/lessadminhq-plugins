@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Writes follow-ups for quotes and estimates that went quiet: a short text and email with a real reason to reply, a later follow-up, and a polite closing-the-loop note.",
-  "homepage": "https://lessadminhq.com/tools/follow-up-writer/",
+  "homepage": "https://lessadminhq.com/tools/follow-up-writer/?utm_source=directory&utm_medium=plugin&utm_campaign=follow-up-writer",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Win back quotes that went quiet",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=follow-up-writer"
   },
   "keywords": [
     "follow up on a quote",
@@ -42,5 +42,5 @@
   ],
   "name": "follow-up-writer",
   "skills": "./skills/",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

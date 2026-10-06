@@ -1,14 +1,14 @@
 {
   "name": "pay-nudger",
   "displayName": "Pay Nudger",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Writes late-payment reminders for small business owners: a short text and a matching email in a friendly, firm, or final tone, without sounding rude.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/pay-nudger/",
+  "homepage": "https://lessadminhq.com/tools/pay-nudger/?utm_source=directory&utm_medium=plugin&utm_campaign=pay-nudger",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "contractor",
     "trades"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/pay-nudger/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/pay-nudger/?utm_source=directory&utm_medium=plugin&utm_campaign=pay-nudger",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

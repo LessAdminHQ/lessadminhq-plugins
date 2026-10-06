@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Writes replies to Google reviews for small businesses: personal replies that name one specific thing, calm replies to bad reviews, and quick one-liners. Never invents details.",
-  "homepage": "https://lessadminhq.com/tools/review-replier/",
+  "homepage": "https://lessadminhq.com/tools/review-replier/?utm_source=directory&utm_medium=plugin&utm_campaign=review-replier",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Reply to Google reviews in minutes",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=review-replier"
   },
   "keywords": [
     "reply to google reviews",
@@ -42,5 +42,5 @@
   ],
   "name": "review-replier",
   "skills": "./skills/",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

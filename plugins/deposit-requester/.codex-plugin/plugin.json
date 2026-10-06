@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Writes a short text and email asking a customer for a deposit once they say yes, plus a confirmation for when it's paid. The owner sets the amount and the terms.",
-  "homepage": "https://lessadminhq.com/tools/deposit-requester/",
+  "homepage": "https://lessadminhq.com/tools/deposit-requester/?utm_source=directory&utm_medium=plugin&utm_campaign=deposit-requester",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Ask for the deposit without the awkward feeling",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=deposit-requester"
   },
   "keywords": [
     "ask for a deposit",
@@ -42,5 +42,5 @@
   ],
   "name": "deposit-requester",
   "skills": "./skills/",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

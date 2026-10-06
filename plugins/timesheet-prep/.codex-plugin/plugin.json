@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Turns messy clock-in and clock-out texts into a clean payroll-ready summary per person. Flags missing and odd entries instead of guessing, and applies only the owner's own rules.",
-  "homepage": "https://lessadminhq.com/tools/timesheet-prep/",
+  "homepage": "https://lessadminhq.com/tools/timesheet-prep/?utm_source=directory&utm_medium=plugin&utm_campaign=timesheet-prep",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "Messy hours in, clean payroll totals out",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=timesheet-prep"
   },
   "keywords": [
     "total employee hours",
@@ -42,5 +42,5 @@
   ],
   "name": "timesheet-prep",
   "skills": "./skills/",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

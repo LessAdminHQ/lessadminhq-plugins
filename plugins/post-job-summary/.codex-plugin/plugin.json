@@ -5,7 +5,7 @@
     "url": "https://lessadminhq.com/"
   },
   "description": "Turns rough job notes into a one-page customer summary: what was done, what was found, what to watch, and what's next. Never invents work, parts, or warranty terms.",
-  "homepage": "https://lessadminhq.com/tools/post-job-summary/",
+  "homepage": "https://lessadminhq.com/tools/post-job-summary/?utm_source=directory&utm_medium=plugin&utm_campaign=post-job-summary",
   "interface": {
     "brandColor": "#7FCA59",
     "brandColorDark": "#7FCA59",
@@ -26,7 +26,7 @@
     "screenshots": [],
     "shortDescription": "A clean one-pager after every job",
     "termsOfServiceURL": "https://lessadminhq.com/terms/",
-    "websiteURL": "https://lessadminhq.com/"
+    "websiteURL": "https://lessadminhq.com/?utm_source=directory&utm_medium=plugin&utm_campaign=post-job-summary"
   },
   "keywords": [
     "job summary for customer",
@@ -42,5 +42,5 @@
   ],
   "name": "post-job-summary",
   "skills": "./skills/",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

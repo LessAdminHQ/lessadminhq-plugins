@@ -34,4 +34,4 @@ Swap `pay-nudger` for any plugin name above. To try one without installing: `cla
 ## About this repository
 Each folder in `plugins/` is a complete plugin with a Claude manifest (`.claude-plugin/plugin.json`) and a ChatGPT/Codex manifest (`.codex-plugin/plugin.json`) over the same `skills/<name>/SKILL.md`. This repository is a published copy, kept in sync from Less Admin HQ's working repository, so please open an issue instead of a pull request.
 
-Questions: hello@lessadminhq.com. Licensed under the [MIT License](LICENSE).
+Questions: [open an issue](https://github.com/LessAdminHQ/lessadminhq-plugins/issues). Licensed under the [MIT License](LICENSE).

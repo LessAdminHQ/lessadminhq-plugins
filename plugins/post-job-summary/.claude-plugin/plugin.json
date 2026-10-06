@@ -1,14 +1,14 @@
 {
   "name": "post-job-summary",
   "displayName": "Post-Job Summary",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turns rough job notes into a one-page customer summary: what was done, what was found, what to watch, and what's next. Never invents work, parts, or warranty terms.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/post-job-summary/",
+  "homepage": "https://lessadminhq.com/tools/post-job-summary/?utm_source=directory&utm_medium=plugin&utm_campaign=post-job-summary",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "trades",
     "repair"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/post-job-summary/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/post-job-summary/?utm_source=directory&utm_medium=plugin&utm_campaign=post-job-summary",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

@@ -1,14 +1,14 @@
 {
   "name": "post-call-confirmer",
   "displayName": "Post-Call Confirmer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turns rough call notes into a two-to-four sentence confirmation of what was agreed and what happens next, and flags anything the notes left unclear.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/post-call-confirmer/",
+  "homepage": "https://lessadminhq.com/tools/post-call-confirmer/?utm_source=directory&utm_medium=plugin&utm_campaign=post-call-confirmer",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "consultant",
     "trades"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/post-call-confirmer/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/post-call-confirmer/?utm_source=directory&utm_medium=plugin&utm_campaign=post-call-confirmer",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

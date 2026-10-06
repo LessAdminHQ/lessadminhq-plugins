@@ -1,14 +1,14 @@
 {
   "name": "morning-due-check",
   "displayName": "Morning Due Check",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turns a pasted list of open invoices and estimates into one short check of what's due today, what's overdue, and what's coming up, with a short nudge for each overdue item.",
   "author": {
     "name": "Less Admin HQ",
     "email": "hello@lessadminhq.com",
     "url": "https://lessadminhq.com/"
   },
-  "homepage": "https://lessadminhq.com/tools/morning-due-check/",
+  "homepage": "https://lessadminhq.com/tools/morning-due-check/?utm_source=directory&utm_medium=plugin&utm_campaign=morning-due-check",
   "repository": "https://github.com/LessAdminHQ/lessadminhq-plugins",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,9 @@
     "contractor",
     "trades"
   ],
-  "documentationUrl": "https://lessadminhq.com/tools/morning-due-check/",
-  "supportUrl": "https://lessadminhq.com/about/",
+  "icon": "./assets/less-admin-hq.png",
+  "documentationUrl": "https://lessadminhq.com/tools/morning-due-check/?utm_source=directory&utm_medium=plugin&utm_campaign=morning-due-check",
+  "supportUrl": "https://github.com/LessAdminHQ/lessadminhq-plugins/issues",
   "privacyPolicyUrl": "https://lessadminhq.com/privacy/",
   "termsOfServiceUrl": "https://lessadminhq.com/terms/"
 }

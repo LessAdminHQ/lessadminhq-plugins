@@ -56,4 +56,4 @@ Terms of service: https://lessadminhq.com/terms/
 Privacy policy: https://lessadminhq.com/privacy/
 
 ## Version
-0.1.1. Made by Less Admin HQ. Questions: hello@lessadminhq.com.
+0.1.1. Made by Less Admin HQ. Questions: [open an issue](https://github.com/LessAdminHQ/lessadminhq-plugins/issues).
