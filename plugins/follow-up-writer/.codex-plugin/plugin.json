@@ -21,7 +21,7 @@
     "displayName": "Follow-Up Writer",
     "logo": "./assets/less-admin-hq.png",
     "logoDark": "./assets/less-admin-hq.png",
-    "longDescription": "Follow-Up Writer helps small business owners follow up on quotes and estimates that went quiet, without sounding pushy. Tell it who you quoted, for what, and how long ago, and it writes a short text and matching email with a real reason to reply, then a later follow-up and a polite closing-the-loop note. It stops at three messages, never invents discounts or deadlines, and never sends anything for you.",
+    "longDescription": "Follow-Up Writer helps small business owners follow up on quotes and estimates that went quiet, without sounding pushy. Tell it who you quoted, for what, and how long ago, and it writes a short text and matching email with a real reason to reply, then a later follow-up and a polite closing-the-loop note. It stops at three messages, never invents discounts or deadlines, and never sends anything for you. Used a custom GPT to follow up on quotes? Follow-Up Writer does that job as a plugin.",
     "privacyPolicyURL": "https://lessadminhq.com/privacy/",
     "screenshots": [],
     "shortDescription": "Win back quotes that went quiet",

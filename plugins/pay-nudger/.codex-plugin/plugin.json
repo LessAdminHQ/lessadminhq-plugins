@@ -21,7 +21,7 @@
     "displayName": "Pay Nudger",
     "logo": "./assets/less-admin-hq.png",
     "logoDark": "./assets/less-admin-hq.png",
-    "longDescription": "Pay Nudger writes late-payment reminders for small business owners. Tell it who owes you, how much, and how late it is, and it writes a short text and a matching email in a friendly, firm, or final tone, plus when to send it and what to send next if they go quiet. It never sends anything for you and never makes up late fees or legal threats. You check it and send it yourself.",
+    "longDescription": "Pay Nudger writes late-payment reminders for small business owners. Tell it who owes you, how much, and how late it is, and it writes a short text and a matching email in a friendly, firm, or final tone, plus when to send it and what to send next if they go quiet. It never sends anything for you and never makes up late fees or legal threats. You check it and send it yourself. Used a custom GPT to write payment reminders? Pay Nudger does that job as a plugin.",
     "privacyPolicyURL": "https://lessadminhq.com/privacy/",
     "screenshots": [],
     "shortDescription": "Get paid without awkward calls",
